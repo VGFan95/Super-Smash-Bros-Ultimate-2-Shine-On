@@ -12,8 +12,9 @@ This is a proposal for the next Smash Bros game, written entirely by me, VGFan95
 
 - Battle Assets
   - [Playable Fighters](#playable-fighters)
-  - [Partners](#partners)
-  - [Assist Fighters](#assist-fighters)
+  - Assist Fighters
+    - [Partner Assist Fighters](#partner-assist-fighters)
+    - [Non-Partner Assist Fighters](#non-partner-assist-fighters)
   - [Bosses](#bosses)
   - [Pokéball Pokémon](#pokéball-pokémon)
   - [Items](#items)
@@ -23,9 +24,7 @@ This is a proposal for the next Smash Bros game, written entirely by me, VGFan95
   - [Stage Types](#stage-types)
   - [King of the Hill](#king-of-the-hill)
   - [Squad Strike Tag-Team: Tag-In](#squad-strike-tag-team-tag-in)
-  - Partner Assists
-    - [Partner Assist: Squad Strike Tag-Team 3v3](#partner-assist-squad-strike-tag-team-3v3)
-    - [Partner Assist: 1v1](#partner-assist-1v1)
+  - [Squad Strike Tag-Team: Assists](#squad-strike-tag-team-assists)
   - Smash Meter
     - [Smash Meter Updates](#smash-meter-updates)
     - [Power Shield](#power-shield)
@@ -71,10 +70,11 @@ This is a proposal for the next Smash Bros game, written entirely by me, VGFan95
   - [Control Option: Input Delay](#control-option-input-delay)
   - [Controls: Final Smash Attack](#controls-final-smash-attack)
   - [Buffered Aerial Direction](#buffered-aerial-direction)
+  - [New Combination Inputs](#new-combination-inputs)
   - [Button Mapping: New Defaults](#button-mapping-new-defaults)
 - Online
   - [Online Quickplay: New Playlists](#online-quickplay-new-playlists)
-  - [Stage Type Striking](#stage-type-striking)
+  - [Automatic Stage Type Striking](#automatic-stage-type-striking)
   - [New Ranking System](#new-ranking-system)
   - [Legend Leaderboard](#legend-leaderboard)
   - [Ranked Playlist Data Collection](#ranked-playlist-data-collection)
@@ -135,9 +135,9 @@ New Playable Fighters - Guest:
 
 ![New Playable Fighters - Guest](https://github.com/VGFan95/Super-Smash-Bros-Ultimate-2-Shine-On/blob/main/images/new-playable-fighters-guest.JPG)
 
-## Partners
+## Partner Assist Fighters
 
-Each Playable Fighter in SSBU2 has a Partner assigned. Partners can help out in battle by performing a Partner Assist in supported game modes.
+Each Playable Fighter in SSBU2 has a specific Assst Fighter assigned, known as a Partner. The "Partner" designation only has significance when certain rules options are being used. Otherwise, any Assist Trophy can spawn any Assist Fighter.
 
 Partners - Nintendo:
 
@@ -147,7 +147,7 @@ Partners - Guest:
 
 ![Partners - Nintendo](https://github.com/VGFan95/Super-Smash-Bros-Ultimate-2-Shine-On/blob/main/images/partners-guest.JPG)
 
-Here's the table that shows each Playable Fighters assigned Partner:
+Here's the table that shows the Partner assigned to each Playable Fighter:
 
 <details>
 <summary>Partner Assignment Table</summary>
@@ -258,15 +258,15 @@ Here's the table that shows each Playable Fighters assigned Partner:
 </details>
 
 
-## Assist Fighters
+## Non-Partner Assist Fighters
 
-In SSBU2, an Assist Trophy can spawn a Partner or one of these characters:
+The remaining Assist Fighters are not a Partner to any specific Playable Fighter.
 
-Assist Fighters - Nintendo:
+Non-Partner Assist Fighters - Nintendo:
 
 ![Assist Fighters - Nintendo](https://github.com/VGFan95/Super-Smash-Bros-Ultimate-2-Shine-On/blob/main/images/assist-fighter-nintendo.JPG)
 
-12 Guest Assist Fighters are post-launch DLC:
+12 Guest Non-Partner Assist Fighters are post-launch DLC:
 
 ![Assist Fighters - Guest](https://github.com/VGFan95/Super-Smash-Bros-Ultimate-2-Shine-On/blob/main/images/assist-fighter-guest.JPG)
 
@@ -365,29 +365,25 @@ An Uncontested Control Bonus Timer mechanic is also present in King of the Hill.
 
 A Tag-In option is available in the Tag Team Rules menu. When enabled, it allows character tag-ins in 3v3 Tag Team mode. This means that you can change characters during the match if your active character is currently in a state that allows swapping. The Tag-In mechanic is based on Pyra/Mythra’s [Swap](https://www.ssbwiki.com/Swap).
 
-## Partner Assist: Squad Strike Tag-Team 3v3
+## Squad Strike Tag-Team: Assists
 
-An option is now available in the rules to enable Partner Assists.
+An option is now available in the rules to enable Assists.
 
-In Tag-Team 3v3, the standby characters on your Tag-Team team are the Partners. When called, the partner appears and performs their Partner Assist move, then leaves the screen. Each Playable Fighter has a specified Assist Move, which is typically one of their Special Moves.
+In Tag-Team 3v3, the standby characters on your Tag-Team team can be called to perform an Assist move. When called, the character appears and performs their Assist move, then leaves the screen. Each Playable Fighter has a specified Assist Move, which is typically one of their Special Moves.
 
-Partner Assist can only be used when the currently controlled character is in a state that allows for it. An assist cannot be called while in hitstun, hitlag (victim), shieldstun, shieldlag, in a helpless state, while grabbing a foe or while being grabbed. There must also be stage or a platform (something to stand on) directly below the active character to be able to call an assists, and the character must be within a certain distance of that ground if in the air when calling the assist.
+An Assist can only be called when the currently controlled character is in a state that allows for it. An assist cannot be called while in hitstun, hitlag (victim), shieldstun, shieldlag, in a helpless state, while grabbing a foe or while being grabbed. There must also be stage or a platform (something to stand on) directly below the active character to be able to call an assists, and the character must be within a certain distance of that ground if in the air when calling the assist.
 
-When called, if the active character is grounded, the Partner will appear slightly in front or behind the active character facing towards the foe, and use their assist move. If the active character is not grounded when the partner is called, the Partner will appear below the active character. 
+When called, if the active character is grounded, the assisting character will appear slightly in front or behind the active character facing towards the foe, and use their assist move. If the active character is not grounded when the assist is called, the assisting character will appear below the active character. 
 
-If the Up direction is being held while the partner is called and there is a platform above the active character, the partner will instead appear at that platform.
+If the Up direction is being held while the assist is called and there is a platform above the active character, the assisting character will instead appear at that platform.
 
-If the partner is hit while performing the assist move, the partner will leave the screen once they get out of hitstun.
+If the assisting character is hit while performing the assist move, they will leave the screen once they get out of hitstun.
 
-While the partner is on the field, opponents in Shieldstun or Shieldlag will have grab-immunity.
+While the assisting character is on the field, opponents in Shieldstun or Shieldlag will have grab-immunity.
 
-Partners can only be called when they are "ready" and will go on cooldown once they leave the screen (or when the foe leaves hitstun/blockstun, whichever is later). Each assist move has a specified cooldown period. If a Partner is hit while performing the Partner Assist, the cooldown period is increased by 5 seconds.
+Assists can only be called when they are "ready" and will go on cooldown once the assisting character leaves the screen (or when the foe leaves hitstun/blockstun, whichever is later). Each assist move has a specified cooldown period. If an assisting character is hit while performing the Assist, the cooldown period is increased by 5 seconds.
 
 A player cannot Tag-In to a standy character that is on cooldown.
-
-## Partner Assist: 1v1
-
-1v1 also supports Partner Assists. As indicated in the Battle Assets - Partners section, each Playable Fighter has been assigned a specific Partner that can be called. Each assigned partner has two possible Partner Assist moves. The first option is used by pressing Partner Assist 1. The second option is used by pressing Partner Assist 2.
 
 ## Smash Meter Updates
 
@@ -482,9 +478,9 @@ New rules and options have been added, and some existing options have been updat
 | Losing Team Next Character                | Fixed, Pick                                                                                 | Available in Squad Strike Elimination. Fixed enforces the order that  was chosen at the start of the Squad Strike. Pick allows the losing  team to choose the next character to send in before each match.  Characters already defeated cannot be picked.                                                                                                                                                                                                                                                                               |
 | Winning Team Next Character               | Stay, Fixed, Pick                                                                           | Available in Squad Strike Elimination. Stay means the winning  character proceeds to the next match. Fixed means the winning character  must swap to the next character, from the order that was chosen at the  start of the Squad Strike (will loop back to start of team order, to first non-defeated character, if needed). Pick allows the winning team to choose the  next character to send in before each match. Characters already defeated  cannot be picked and characters that have played fewer games must be picked first. |
 | Squad Strike Team Color                   | Any Team Color                                                                              | The Team Color can now be adjusted in Squad Strike modes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Stock Behavior                            | Shared, Separate                                                                            | Available in Squad Strike Tag Team 3v3. Shared Stock Behavior means the characters on your team share stocks and percentage. Separate Stock Behavior means the characters on your team do not share stocks and percentages, and only have 1 stock each. When Separate is used, the standby characters recover a tiny amount of HP every second and when a character is KO'd, the next character on the team appears at the respawn platform without percentages being reset. If Shared is used and a partner is hit into a blast zone while performing a Partner Assist, a stock will be lost, unless the player is on their final stock. The default value is Shared.                               |
+| Stock Behavior                            | Shared, Separate                                                                            | Available in Squad Strike Tag Team 3v3. Shared Stock Behavior means the characters on your team share stocks and percentage. Separate Stock Behavior means the characters on your team do not share stocks and percentages, and only have 1 stock each. When Separate is used, the standby characters recover a tiny amount of HP every second and when a character is KO'd, the next character on the team appears at the respawn platform without percentages being reset. If Shared is used and a non-active is hit into a blast zone while performing an Assist, a stock will be lost, unless the player is on their final stock. The default value is Shared.                               |
 | Auto Switch to Next Character When K.O'd  | Enabled, Disabled                                                                           | Available in Squad Strike Tag Team 3v3, when Shared Stock Behavior is being used. |
-| Partner Assists                           | Enabled, Disabled                                                                           | Determines if Partner Assists are enabled or disabled. |
+| Assists                                   | Enabled, Disabled                                                                           | Determines if Assists can be called. Can be set to enabled or disabled. |
 | Tag-Ins                                   | Enabled, Disabled                                                                           | Available in Squad Strike Tag Team 3v3. Determines if Tag-Ins are enabled or disabled. |
 | Smash-Link                                | Enabled, Disabled                                                                           | Determines if Smash-Link is enabled or disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Power Shield                              | Enabled, Disabled                                                                           | Determines if Power Shield is enabled or disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -493,8 +489,8 @@ New rules and options have been added, and some existing options have been updat
 | Power Shield Smash Meter Cost             | 1, 2, 3, 4                                                                                  | Determines how many segments of Smash Meter a Power-Shield costs                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Maximum Smash Meter Segments              | 6,7,8                                                                                       | Determines how many segments the Smash Meter is divided into.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Starting Smash Meter Segments             | 0, 1, 2                                                                                     | Determines how many segments of Smash Meter each player starts the match with                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Starting Partner Assist Status            | Ready, Cooldown                                                                             | Determines if the game starts with Partner Assists Ready to be called, or on cooldown                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Additional Partner Assist Cooldown        | A range from 0 to 10                                                                        | Determines if an additional number of seconds are applied to a Partner Assist cooldown. Default is 0.                                                 |
+| Starting Assist Call Status               | Ready, Cooldown                                                                             | Determines if the game starts with Assists Ready to be called, or on cooldown                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Additional Assist Cooldown                | A range from 0 to 10                                                                        | Determines if an additional number of seconds are applied to an Assist cooldown. Default is 0.                                                 |
 | Allow Character Swap Special Moves        | Enabled, Disabled                                                                           | Determines if Pokémon Trainer's Pokémon Change and Pyra/Mythra's Swap special moves will be enabled or disabled. If disabled, Pokémon Trainer will not change Pokémon when the active character is KO'd.                                                                                                                                                                                                                                                                                                                                |
 | Allow Mii Fighter Custom Moves            | Enabled, Disabled                                                                           | Determines if Mii Fighters can use non-default special moves.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Ratio Sheet                               | Disabled, Current Online Quickplay Preset, Previous Online Quickplay Preset, Random, Custom | Determines the Ratio Sheet point values for each character and the maximum points a team can have.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -502,7 +498,7 @@ New rules and options have been added, and some existing options have been updat
 | Random Stage Selection                    | All possible stage forms                                                                    | All possible stage forms can be selected as the Random Selection stage type.                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Stage Hazards                             | Rule Removed                                                                                | This rule has been removed, since Normal Form Hazards On is a stage  type selectable from the Stage Select Screen or set as the Stage Type in the rule above.                                                                                                                                                                                                                                                                                                                                                                           |
 | Random Stage Select Screen                | -                                                                                           | Custom Stages are now on their own tab in this menu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| KO'ing an Assist Fighter Give Score       | Enabled, Disabled                                                                           | Determines if KO'ing an Assist Fighter from an Assist Trophy provides +1 score (-1 if KO'ing your own Assist Fighter) or 0 score.                                                                                                                                                                                                                                                                                                                                                                                                       |
+| KO'ing an Assist Fighter Gives Score      | Enabled, Disabled                                                                           | Determines if KO'ing an Assist Fighter from an Assist Trophy provides +1 score (-1 if KO'ing your own Assist Fighter) or 0 score.                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Show Name Tags                            | Enabled, Disabled                                                                           | Determines if Name Tags are displayed above characters heads and on character portraits during a match.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Show Usernames                            | Enabled, Disabled                                                                           | Available in Online Settings, this determines if usernames on nameplates of players are shown.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Launch Trail Color                        | See Description                                                                             | Determines the color of the launch trail smoke when a Fighter gets  hit. Can be set to Port Color of the Player that Dealt the Hit or Port  Color of the Player that Got Hit.                                                                                                                                                                                                                                                                                                                                                           |
@@ -676,8 +672,8 @@ Players can now create custom Event Matches by placing Fighter Modifiers on a pe
 | Spawn with Item                        | Select an item for the character to spawn with at the start of the match and whenever they respawn. Specific Assist Fighters or Pokemon can be set.                                             |
 | Infinite Smash Meter                   | Causes Smash-Links to cost 0 Smash Meter but prevents Power Shield and Final Smash Attacks from being used from Smash Meter                                                                     |
 | Unable to Use Smash Meter              | Causes the character to be unable to gain or use Smash Meter                                                                                                                                    |
-| Unable to Use Partner Assists          | Causes the character to be unable to use Partner Assists                                                                                                                                        |
-| Powered Up Assists                     | Partners, Assist Fighters, and Pokemon the character calls have increased power                                                                                                                 |
+| Unable to Use Assists                  | Causes the character to be unable to use call Assists                                                                                                                                           |
+| Powered Up Assists                     | Assists the character calls have increased power                                                                                                                                                |
 | Bounty                                 | This option causes the team to lose when a character on the team with this modifier runs out of stocks                                                                                          |
 
 </details>
@@ -710,7 +706,7 @@ New tips have been added for new and returning mechanics.
 | Launch Speed Influence (LSI)               | The character's launch speed can be altered depending on the control stick's vertical position prior to being launched. Holding the stick up  increases Launch Speed, and Holding the stick down decreases Launch  Speed. Not all attacks can be affected by LSI.  |
 | Tag-In                                     | A Tip for performing the Tag-In technique                                                                                                                                                                                                                          |
 | Power Shield                               | A Tip for performing a Power Shield                                                                                                                                                                                                                                |
-| Partner Assists                            | A Tip for performing Partner Assist in Tag Team 3v3, and a tip for performing Partner Assist in 1v1                                                                                                                                                                |
+| Assists                                    | A Tip for calling an Assist                                                                                                                                                                                                                                        |
 | Smash-Link                                 | A Tip for performing a Smash-Link                                                                                                                                                                                                                                  |
 | Ultimate Final Smash Attack                | A Tip for how to obtain an Ultimate Final Smash Attack                                                                                                                                                                                                             |
 | Act Quickly Out of Shield                  | A Tip that indicates which actions bypass the Shield Drop Animation                                                                                                                                                                                                |
@@ -755,8 +751,8 @@ The Training Mode has been made more robust and supports a variety of new featur
 | Begin, Stop, Pause, Resume Matchmaking | The player can queue into Online Quickplay from within Training Mode. The CPU character will auto-change into the character most recently battled when returning to Training Mode.                                                                                                                                 |
 | Adjust Starting Positions              | Allows Starting Positions to be configured (where Player and CPU spawn when reset positions is used)                                                                                                                                                                                                                 |
 | Don't Reset Music                      | The music does not reset when Reset Positions is used                                                                                                                                                                                                                                                                |
-| Tag-Team Support                       | The player can now bring 3 characters into Training Mode, to test Tag-Ins and Partner Assists                                                                                                                                                                                                                        |
-| Partner Assist Support                 | Partner Assists can be used in Training Mode                                                                                                                                                                                                                                                                         |
+| Tag-Team Support                       | The player can now bring 3 characters into Training Mode, to test Tag-Ins and Assists                                                                                                                                                                                                                              |
+| Assist Support                         | Assists can be used in Training Mode                                                                                                                                                                                                                                                                         |
 | Smash Meter Support                    | Smash Meter can be used in Training Mode and set to a fixed or starting value                                                                                                                                                                                                                                        |
 | Ultlimate Final Smash Attack Support   | The player can give their character an Ultimate Final Smash Attack                                                                                                                                                                                                                                                   |
 | Input History Display                  | An Input History Display can now be shown on screen                                                                                                                                                                                                                                                                  |
@@ -842,20 +838,15 @@ The following buttons can now have actions assigned:
 
 The Tag-Team buttons can be mapped:
 
-- Any button can now be mapped to Tag-In Partner 1. Acts as Directional-Input Up if Tag-Ins are not supported in the current mode.
-- Any button can now be mapped to Tag-In Partner 2. Acts as Directional-Input Down if Tag-Ins are not supported in the current mode.
-
-The Partner Assist buttons can be mapped:
-
-- Any button can now be mapped to Partner Assist 1. Does Nothing if Partner Assists are not supported in the current mode.
-- Any button can now be mapped to Partner Assist 2. Does Nothing if Partner Assists are not supported in the current mode.
+- Any button can now be mapped to Assist 1 / Tag-In 1. Tapping the button calls the Assist. Holding the button Tags-In the standby character.
+- Any button can now be mapped to Assist 2 / Tag-In 2. Tapping the button calls the Assist. Holding the button Tags-In the standby character.
 
 These actions can now be mapped to any button:
 
 - Sprint
 - Direction Lock
 - Final Smash Attack
-- Smash-Link (does nothing if Smash Meter is not enabled in the current mode)
+- Smash-Link
 - Nothing (Unassigned)
 
 ## Controls: Sprint Button
@@ -913,6 +904,15 @@ If a button has been mapped to Final Smash Attack, then it will be the only way 
 
 The input buffer will now store directional input for buffered aerials like it does for other attacks.
 
+## New Combination Inputs
+
+New combination inputs for Up-Special and Power Shield can be enabled or disabled in the Controls configuration:
+
+- Left + Up + Right + Shield = Up-Special
+- Left + Down + Right + Shield = Power Shield
+
+These can be useful for players using a leverless controller.
+
 ## Button Mapping: New Defaults
 
 The Default Controls preset cannot be modified. Custom controller configuration presets need to be assigned to a name tag (or used temporarily by editing controls on the Character Select Screen). Below is the new default button mapping and settings for the Ninth Generation Nintendo Console Pro Controller, which has 4 back paddles similar to the [Xbox Elite Wireless Controller Series 2](https://www.xbox.com/en-US/accessories/controllers/elite-wireless-controller-series-2).
@@ -934,10 +934,10 @@ The Default Controls preset cannot be modified. Custom controller configuration 
 | Left-Stick-Down                                    | Movement & Directional Input                       |
 | Left-Stick-Left                                    | Movement & Directional Input                       |
 | Left-Stick-Right                                   | Movement & Directional Input                       |
-| D-Pad-Up                                           | Tag-In Partner 1                                   |
-| D-Pad-Down                                         | Tag-In Partner 2                                   |
-| D-Pad-Left                                         | Walk Left / Directional Input                      |
-| D-Pad-Right                                        | Walk Right / Directional Input                     |
+| D-Pad-Up                                           | Movement & Directional Input                       |
+| D-Pad-Down                                         | Movement & Directional Input                       |
+| D-Pad-Left                                         | Movement & Directional Input                       |
+| D-Pad-Right                                        | Movement & Directional Input                       |
 | Right-Stick-Up                                     | Up-Smash                                           |
 | Right-Stick-Left/Right                             | Forward Tilt                                       |
 | Right-Stick-Down                                   | Down-Tilt                                          |
@@ -946,17 +946,19 @@ The Default Controls preset cannot be modified. Custom controller configuration 
 | Plus                                               | Pause                                              |
 | Minus                                              | Taunt                                              |
 | Back Paddle 1                                      | Jump                                               |
-| Back Paddle 2                                      | Partner Assist 1                                   |
+| Back Paddle 2                                      | Assist 1 / Tag-In 1                                |
 | Back Paddle 3                                      | Final Smash Attack                                 |
-| Back Paddle 4                                      | Partner Assist 2                                   |
+| Back Paddle 4                                      | Assist 2 / Tag-In 2                                |
 | -------------------------------------------------- | -------------------------------------------------- |
 | Rumble                                             | Enabled                                            |
 | Attack + Special = Smash Attack                    | Enabled                                            |
 | Stick Flick Smash Attacks                          | Disabled                                           |
 | Stick Jump                                         | Disabled                                           |
 | Stick Sensitivity                                  | Normal                                             |
-| Auto Short-Hop Setting                             | Standard                                           |
+| Auto Short-Hop Setting                             | Hold                                               |
 | Input Latency                                      | 0                                                  |
+| Up-Special Combination Input                       | Disabled                                           |
+| Power Shield Combination Input                     | Disabled                                           |
 
 </details>
 
@@ -975,10 +977,11 @@ The Preferred Rules system has been removed. When a player selects Online Quickp
 | Stock Count: 3                                         | Stock Count: 3                                                     |
 | Time Limit: 4:00                                       | Time Limit: 4:00                                                   |
 | Smash Meter: Enabled                                   | Smash Meter: Disabled                                              |
-| Partner Assists: Enabled                               | Partner Assists: Disabled                                          |
+| Power Shield: Enabled                                  | Power Shield: Disabled                                             |
+| Smash-Link: Enabled                                    | Smash-Link: Disabled                                               |
 | Character Swap Special Moves: Disabled                 | Character Swap Special Moves: Enabled                              |
 | Items: Disabled                                        | Items: Determined by Players Item Enablement Choice                |
-| Stage Type: Determined by Stage Type Striking          | Stage Type: Determined by Stage Type Striking                      |
+| Stage Type: Determined by Auto Stage Type Striking     | Stage Type: Determined by Auto Stage Type Striking                 |
 | Automatic Character Striking: Enabled                  | Automatic Character Striking: Disabled                             |
 | Ranked Matchmaking: Enabled                            | Ranked Matchmaking: Disabled                                       |
 | ------------------------------------------------------ | ------------------------------------------------------             |
@@ -987,13 +990,15 @@ The Preferred Rules system has been removed. When a player selects Online Quickp
 | Point Value: Infinite                                  | Point Value: Infinite                                              |
 | Stock Count: 3                                         | Stock Count: 3                                                     |
 | Time Limit: 4:00                                       | Time Limit: 4:00                                                   |
-| Smash  Meter: Enabled                                  | Smash  Meter: Disabled                                             |
+| Smash Meter: Enabled                                   | Smash Meter: Disabled                                              |
+| Power Shield: Enabled                                  | Power Shield: Disabled                                             |
+| Smash-Link: Disabled                                   | Smash-Link: Disabled                                               |
 | Items: Disabled                                        | Items: Determined by Players Item Enablement Choice                |
 | Character Swap Special Moves: Disabled                 | Character Swap Special Moves: Disabled                             |
-| Stage Type: Determined by Stage Type Striking          | Stage Type: Determined by Stage Type Striking                      |
+| Stage Type: Determined by Auto Stage Type Striking     | Stage Type: Determined by Auto Stage Type Striking                 |
 | Ranked Matchmaking: Enabled                            | Ranked Matchmaking: Disabled                                       |
 | Tag-Ins: Enabled                                       | Tag-Ins: Enabled                                                   |
-| Partner Assists: Enabled                               | Partner Assists: Disabled                                          |
+| Assists: Enabled                                       | Assists: Disabled                                                  |
 | Stock Behavior: Shared                                 | Stock Behavior: Shared                                             |
 | ------------------------------------------------------ | ------------------------------------------------------             |
 | Team Attack Doubles                                    | Team Battle                                                        |
@@ -1004,7 +1009,7 @@ The Preferred Rules system has been removed. When a player selects Online Quickp
 | Smash Meter: Off                                       | Smash Meter: Off                                                   |
 | Items: Off                                             | Items: Determined by Players Item Enablement Choice                |
 | Character Swap Special Moves: Disabled                 | Character Swap Special Moves: Enabled                              |
-| Stage Type: Determined by Stage Type Striking          | Stage Type: Determined by Stage Type Striking                      |
+| Stage Type: Determined by Auto Stage Type Striking     | Stage Type: Determined by Auto Stage Type Striking                 |
 | Ranked Matchmaking: Off                                | Ranked Matchmaking: Off                                            |
 | Team Attack: On                                        | Team Attack: Off                                                   |
 | ------------------------------------------------------ | ------------------------------------------------------             |
@@ -1023,7 +1028,7 @@ The Preferred Rules system has been removed. When a player selects Online Quickp
 
 Ranked 1v1, Ratio Tag Team, and Team Attack Doubles are all played in sets of First to 2.
 
-## Stage Type Striking
+## Automatic Stage Type Striking
 
 A menu has been added that allows the player to order the 5 possible stage types used in playlists that have Stage Type Striking.
 
@@ -1557,9 +1562,9 @@ This section has brief summaries for why each item is being put into SSBU2.
 <summary>Show Details</summary>
 
 - Battle Assets
-  - Playable Fighters: 100 Playable Fighters is a tremendous achievement for the game! The 75% Nintendo 25% Guest split is great. I love all these characters and know they will greatly boost sales and interest in the game. 16 new Playable Fighters is a substantial amount!
-  - Partners: Every Playable Fighter has been given a fitting partner. Players will love seeing these characters on stage!
-  - Assist Fighters: A great way to let more characters into the game and be visible in battle without having to go over the 100 Playable Fighters limit. Players will love seeing these characters on stage!
+  - Playable Fighters: 100 Playable Fighters is a tremendous achievement for the game! The 75% Nintendo 25% Guest split is great. I love all these characters and know they will greatly boost sales and interest in the game. 4 New characters at launch is great and 12 more over three years keeps the game hyped for a long period of time post-launch.
+  - Partner Assist Fighters: Every Playable Fighter has been given a fitting partner. Players will love seeing these characters on stage!
+  - Non-Partner Assist Fighters: A great way to let more characters into the game and be visible in battle without having to go over the 100 Playable Fighters limit. Players will also love seeing these characters on stage!
   - Bosses: Smash has incredible Boss Battles. The team really knows how to make them fun and exciting, so the number of bosses has been cranked way up. 33 was chosen since the idea for the All-Star Boss Rush mode came before the bosses were decided. Players will love seeing these characters in battle!
   - Pokemon: A mix of new and returning Poke-ball & Master-ball Pokemon. Some tough, some cute, all fun! Players will love seeing these characters on stage!
   - Items: This set of items was chosen since it preserved the fun part of items while avoiding the frustrating part. Golden Mushroom turns a character gold and gives them the knockback buff, while the Longshot is intended to function similarly to the grappling hook from Gravity Circuit - ideally for some great Break the Targets courses.
@@ -1568,12 +1573,11 @@ This section has brief summaries for why each item is being put into SSBU2.
 - Battle Updates
   - Stage Types: This is an essential change for making Online Quickplay a better experience, as it allows players to play on different stages (visually). That means players can set which stage (visual aesthetics) they'd like to play on, without it effecting the gameplay at all. Barrier Form is essential for helping less experienced players have fun with the game, because a big challenge for new Smash players is recovering to the stage. It's near-impossible to SD on a Barrier Form stage, so any player can play on this stage type and have fun. This was a tremendous bonus that King of Fighters Stadium gave to Ultimate when it was added. Barrier Form stages also have a unique balancing aspect to them since you don't need recovery at all. Dynamic Battlefield form can pair well with Tag Team, since some fighters will do better depending on platform layout. The additions of Big Battlefield Form and Pyrosphere Form will help 5+ player matches with some more variety, and could be great for a mode like Cucco Keep Away.
   - King of the Hill: This mode will alleviate the pain points players have with Stock and Time. It encourages an engaging, faster pace of play because players will be drawn towards center stage. Ultimate suffered tremendously from camping and player targeting, but King of the Hill eliminates that problem. It's a clear, easy to understand objective that works well for casual or competitive play, and will become the new "standard" game mode.
-  - Partner Assist: Squad Strike Tag-Team 3v3: A fun combo extension mechanic or used in neutral. Partner Assists in Tag-Team 3v3 also help display the full roster, as some characters may have an assist that fits your team better than others. Provides a faster and flashier pace of play.
-  - Partner Assist: 1v1: Same as above, can be a combo extender or used in neutral. Can be tailored to synergize well with the specific Playable Fighter. Essentially two new moves given to each Playable Fighter. Provides a faster and flashier pace of play.
   - Squad Strike Tag-Team: Tag-In: This is a very exciting new feature that brings immense team theory crafting to the game. It's a true Tag-Team experience like you'd find in Dragon Ball FighterZ or Marvel vs Capcom 2. It really lets the full roster shine because some characters are better or worse when put into certain situations.
+  - Squad Strike Tag-Team: Assists: A fun combo extension mechanic or used in neutral. Assists in Tag-Team 3v3 also help display the full roster, as some characters may have an assist that fits your team better than others. Provides a faster and flashier pace of play.
   - Smash Meter: The meter system in Ultimate was not great. It often resulted in a bunch of Final Smashes being used back-to-back, and the way meter was gained did not feel particularly engaging. So, the meter system has been significantly altered.
     - Power Shield: A defensive mechanic so your shield doesn't pop so often when under pressure from Assists or Smash-Links
-    - Smash-Link: Many traditional Fighting Games have a cancel mechanic that burns meter, like a Guilty Gear Roman Cancel or BlazeBlue Rapid Cancel. This is similar, although a bit more restrictive as only certain "links" are allowed. In turn, however, the unique links per character will help characters feel unique and require more effort to understand the matchup or master a character. With each character having Smash-Links and the game having Tag-Ins and Partner Assists, there should be plenty of room for players to develop their own unique playstyles / player expression. Provides a faster and flashier pace of play.
+    - Smash-Link: Many traditional Fighting Games have a cancel mechanic that burns meter, like a Guilty Gear Roman Cancel or BlazeBlue Rapid Cancel. This is similar, although a bit more restrictive as only certain "links" are allowed. In turn, however, the unique links per character will help characters feel unique and require more effort to understand the matchup or master a character. Provides a faster and flashier pace of play.
   - Ultimate Final Smash Attack: This is a fun cinematic ender to a match. It will be a rare occurrence but very hype when it happens. Similar to a BlazBlue Astral Heat.
   - Final Smash Attack Power: Meter-obtained Final Smashes were a bit too strong in Ultimate, so they've been toned down.
   - Custom Stage Music Playlist: This is a big quality of life feature so that you can listen to more of this games expansive soundtrack
@@ -1616,10 +1620,11 @@ This section has brief summaries for why each item is being put into SSBU2.
   - Control Option: Input Delay: A quality of life option for players who want the same amount of input lag offline and online
   - Controls: Final Smash Attack: This takes the Final Smash Attack off the Special Button, so you can use Neutral Special without forcing the Final Smash Attack out
   - Buffered Aerial Direction: This will let you do an aerial of any direction while jumping in any direction
+  - New Combination Inputs: Useful for leverless players to not need 2 buttons designated for Power Shield and Up-Special
   - Button Mapping: New Defaults: The updated default controls for the game. They are different than previous games, but I believe them to be the best to learn. If you've never tried a controller with back paddles, it really is a game changer. The Xbox Elite Series 2 really is the best pad on the market.
 - Online
   - Online Quickplay: New Playlists: This entire project begin because I wanted to see Ultimate's Online Quickplay improved. This is a massive overhaul that will result in a much more pleasing experience. There's playlists for casual and competitive play here.
-  - Stage Type Striking: Allows both players to play on stage they like
+  - Automatic Stage Type Striking: Allows both players to play on stage they like
   - New Ranking System: A straightforward Ranking System that's easier to follow and works great
   - Legend Leaderboard: A healthy competition for those at the top of the ranks
   - Ranked Playlist Data Collection: This is for players to create a personal matchup chart. Global matchup charts don't really do much, but the personal data can be interesting.
