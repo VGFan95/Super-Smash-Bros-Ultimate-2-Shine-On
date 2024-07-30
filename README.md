@@ -368,13 +368,105 @@ A Tag-In option is available in the Tag Team Rules menu. When enabled, it allows
 
 An option is now available in the rules to enable Assists.
 
-In Tag-Team 3v3, the standby characters on your Tag-Team team can be called to perform an Assist move. When called, the character appears and performs their Assist move, then leaves the screen. Each Playable Fighter has a specified Assist Move, which is typically one of their Special Moves, but for some characters is their dash-attack, a tilt, or aerial.
+In Tag-Team 3v3, the standby characters on your Tag-Team team can be called to perform an Assist move. When called, the character appears and performs their Assist move, then leaves the screen. Each Playable Fighter has a specified Assist Move, listed in the table below. (New Playable Fighters not listed)
+
+<details>
+<summary>Assist Move Table</summary>
+
+| Fighter Name     | Assist Move                                                                                      |
+|------------------|--------------------------------------------------------------------------------------------------|
+| Banjo & Kazooie  | Dash Attack                                                                                      |
+| Bayonetta        | Heel Slide                                                                                       |
+| Bowser           | Up-Tilt                                                                                          |
+| Bowser Jr        | Mechakoopa                                                                                       |
+| Byleth           | Down-Tilt                                                                                        |
+| Captain Falcon   | Raptor Boost                                                                                     |
+| Charizard        | Flamethrower (Brief)                                                                             |
+| Cloud            | Climbhazard (first attack only)                                                                  |
+| Corrin           | Up-Air (Short Hop)                                                                               |
+| Diddy Kong       | Dash Attack                                                                                      |
+| Donkey Kong      | Hand Slap (tap input)                                                                            |
+| Dr. Mario        | Megavitamin                                                                                      |
+| Duck Hunt        | Clay Shooting (clay pigeon only)                                                                 |
+| Falco            | Reflector                                                                                        |
+| Fox              | Fox Illusion                                                                                     |
+| Ganondorf        | Flame Choke                                                                                      |
+| Greninja         | Down-Air (Full Hop)                                                                              |
+| Hero             | Zap                                                                                              |
+| Ice Climbers     | Ice Block                                                                                        |
+| Ike              | Eruption (slight charge)                                                                         |
+| Incineroar       | Darkest Lariat                                                                                   |
+| Inkling          | Splattershot (Brief)                                                                             |
+| Isabelle         | Down-Air (Full Hop)                                                                              |
+| Ivysaur          | Razor Leaf                                                                                       |
+| Jigglypuff       | Sing                                                                                             |
+| Joker            | Grappling Hook                                                                                   |
+| Kazuya           | Demon God Fist                                                                                   |
+| Ken              | Shoryuken                                                                                        |
+| King Dedede      | Gordo Throw (neutral angle)                                                                      |
+| King K. Rool     | Dash Attack                                                                                      |
+| Kirby            | Inhale & Swallow (when he has no copied ability) / Copied Ability (when he has a copied ability) |
+| Link             | Boomerang                                                                                        |
+| Little Mac       | Power Charge (Raises Little Mac’s Power Meter)                                                   |
+| Lucario          | Force Palm                                                                                       |
+| Lucas            | Back-Air (Full Hop)                                                                              |
+| Lucina           | Dolphin Slash                                                                                    |
+| Luigi            | Dash Attack                                                                                      |
+| Mario            | Fireball                                                                                         |
+| Marth            | Dolphin Slash                                                                                    |
+| Mega Man         | Crash Bomber                                                                                     |
+| Meta Knight      | Dimensional Cape                                                                                 |
+| Mewtwo           | Confusion                                                                                        |
+| Mii Brawler      | Burning Dropkick                                                                                 |
+| Mii Gunner       | Bomb Drop                                                                                        |
+| Mii Swordfighter | Power Thrust                                                                                     |
+| Min Min          | Forward-Tilt (Left ARM)                                                                          |
+| Mr. Game & Watch | Chef (tap input)                                                                                 |
+| Mythra           | Ray of Punishment                                                                                |
+| Ness             | PK Fire                                                                                          |
+| Olimar           | Pikmin Throw                                                                                     |
+| Pac-Man          | Dash Attack                                                                                      |
+| Palutena         | Autoreticle                                                                                      |
+| Peach            | Peach Bomber                                                                                     |
+| Pichu            | Thunder Jolt                                                                                     |
+| Pikachu          | Quick Attack                                                                                     |
+| Piranha Plant    | Ptooie (upwards once then swallow)                                                               |
+| Pit              | Palutena Bow (tap input)                                                                         |
+| Pyra             | Down-Air (Full Hop)                                                                              |
+| R.O.B            | Robo Beam (Normal)                                                                               |
+| Ridley           | Down-Tilt                                                                                        |
+| Robin            | Arcfire                                                                                          |
+| Rosalina         | Star Bits                                                                                        |
+| Roy              | Double-Edge Dance (Forward-Up-Up-Up)                                                             |
+| Ryu              | Hadoken                                                                                          |
+| Samus            | Screw Attack                                                                                     |
+| Sephiroth        | Shadow Flare (tap input)                                                                         |
+| Sheik            | Bouncing Fish                                                                                    |
+| Shulk            | Back Slash                                                                                       |
+| Simon            | Holy Water                                                                                       |
+| Snake            | Hand Grenade                                                                                     |
+| Sonic            | Spin Dash (Uncharged)                                                                            |
+| Sora             | Sonic Blade (1 Thrust)                                                                           |
+| Squirtle         | Water Gun (shortest charge)                                                                      |
+| Steve            | Mine (gathers resources for himself)                                                             |
+| Terry            | Burning Knuckle                                                                                  |
+| Toon Link        | Bomb                                                                                             |
+| Villager         | Pocket                                                                                           |
+| Wario            | Dash Attack                                                                                      |
+| Wii Fit Trainer  | Header (Normal)                                                                                  |
+| Wolf             | Blaster                                                                                          |
+| Yoshi            | Egg Throw                                                                                        |
+| Young Link       | Fire Arrow (Uncharged)                                                                           |
+| Zelda            | Din’s Fire                                                                                       |
+| Zero Suit Samus  | Paralyzer (Uncharged)                                                                            |
+
+</details>
 
 An Assist can only be called when the currently controlled character is in a state that allows for it. An assist cannot be called when while in hitstun, hitlag (victim), shieldstun, shieldlag (victim), in a helpless state, while grabbing a foe or while being grabbed. There must also be stage or a platform (something to stand on) directly below the active character to be able to call an assists, and the character must be within a certain distance of that ground if in the air when calling the assist.
 
-When called, if the active character is grounded, the assisting character will appear slightly in front or behind the active character facing towards the foe, and use their assist move. If the active character is not grounded when the assist is called, the assisting character will appear below the active character.
+When called, the assisting character will appear near the active character facing towards the foe and use their assist move.
 
-If the Up direction is being held while the assist is called and there is a platform above the active character, the assisting character will instead appear at that platform.
+If the Up direction is being held while the assist is called and there is a platform above and near the active character, the assisting character will instead appear at that platform.
 
 If the assisting character is hit while performing the assist move, they will leave the screen once they get out of hitstun.
 
@@ -382,7 +474,7 @@ While the assisting character is on the field, opponents in Shieldstun or Shield
 
 Assists can only be called when they are "ready" and will go on cooldown once the assisting character leaves the screen (or when the foe leaves hitstun/blockstun, whichever is later). Each assist move has it's own specified cooldown period. If an assisting character is hit while performing the Assist, the cooldown period is increased by 5 seconds.
 
-A player cannot Tag-In to a standy character that is on cooldown.
+A player cannot Tag-In to a standby character that is on cooldown.
 
 ## Smash Meter Updates
 
@@ -494,8 +586,8 @@ New rules and options have been added, and some existing options have been updat
 | Tag-Ins                                   | Enabled, Disabled                                                                           | Available in Squad Strike Tag Team 3v3. Determines if Tag-Ins are enabled or disabled. |
 | Smash-Link                                | Enabled, Disabled                                                                           | Determines if Smash-Link is enabled or disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Power Shield                              | Enabled, Disabled                                                                           | Determines if Power Shield is enabled or disabled.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Smash-Link Minimum Smash Meter Cost       | 1, 2, 3, 4, 5                                                                               | Any Smash Links that would ordinarily cost less than the set value will instead cost the set value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Smash-Link Maximum Smash Meter Cost       | 1, 2, 3, 4, 5                                                                               | Any Smash Links that would ordinarily cost more than the set value will instead cost the set value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Smash-Link Minimum Smash Meter Cost       | 0.25, 0.5, 0.75, 1, 2, 3, 4, 5                                                              | Any Smash Links that would ordinarily cost less than the set value will instead cost the set number of segments.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Smash-Link Maximum Smash Meter Cost       | 0.25, 0.5, 0.75, 1, 2, 3, 4, 5                                                              | Any Smash Links that would ordinarily cost more than the set value will instead cost the set number of segments.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Power Shield Smash Meter Cost             | 1, 2, 3, 4                                                                                  | Determines how many segments of Smash Meter a Power-Shield costs                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Maximum Smash Meter Segments              | 4, 5, 6, 7, 8                                                                               | Determines how many segments the Smash Meter is divided into.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Starting Smash Meter Segments             | 0, 1, 2, 3                                                                                  | Determines how many segments of Smash Meter each player starts the match with                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -604,6 +696,7 @@ Stage Builder now supports the following features:
 - Break the Targets Targets support a higher max speed value
 - Fighter Spawn Positions can be set
 - Items can be placed manually on the stage (or in the air), and will appear at the specified location when the stage loads. Some items can be set to "does not dissapear" or "respawns at this location when it dissapears".
+- When the Flag item is set, it can be given a Team Color and a corresponding Capture Zone. When a Capture Zone is set, the Flag can only be used while in that corresponding Capture Zone. The Capture Zone can be set to only activate if a Flag of a particular Team color is present in it.
 - New materials and terrain types
 - New backgrounds, including the animated background from Melee Break the Targets
 - Duplicate Selection function
@@ -666,6 +759,8 @@ Players can now create custom Event Matches by placing Fighter Modifiers on a pe
 | Walk Speed Multiplier                  | Adjusts the Walk Speed of the character                                                                                                                                                         |
 | Initial Dash Speed Multiplier          | Adjusts the Initial Dash Speed of the character                                                                                                                                                 |
 | Dash (Run / Sprint) Speed Multiplier   | Adjusts the Run speed of the character                                                                                                                                                          |
+| Attack Frame Speed Multiplier          | Applies a Frame Speed Multiplier to the character's attacks                                                                                                                                     |
+| Balloon Knockback Speed Multiplier     | Applies a Speed Multiplier to the Balloon Knockback formula for the character                                                                                                                   |
 | Tough Guy Modifier                     | Can give the character Passive Knockback Armor, in a range of 50 to 100                                                                                                                         |
 | Throw Immunity Modifier                | Can give the character throw immunity                                                                                                                                                           |
 | Stamina                                | Can set the character to Stamina Mode, causing them to take knockback as if they were at 0% and giving them an HP (Stamina) value.                                                              |
@@ -688,9 +783,7 @@ Players can now create custom Event Matches by placing Fighter Modifiers on a pe
 
 </details>
 
-In addition to the above table, any other modifiers that could be granted by Spirits or the World of Light Skill Tree can be used.
-
-The Event Match can also include specific stage, character, and team requirements mapped to specific ports. Ports can be mapped to "Player", "Player or CPU", or "CPU". CPUs can be set to specific difficulty levels.
+The Event Match can also include specific stage, character, and team requirements mapped to specific ports. Ports can be mapped to "Player", "Player or CPU", or "CPU". CPUs can be set to specific difficulty levels. Spirits can be assigned to any Fighter.
 
 Players can share their Event Match rulesets online for other players to download and use.
 
@@ -1344,7 +1437,7 @@ Here is the list of Playable Fighter specific changes made in the transition to 
 |                  | • Increased the amount of stage that can be inked at one time                                                                                                            |
 |                  | • Further reduced movement speed and jump height of foes standing in ink                                                                                                 |
 | Isabelle         |                                                                                                                                                                          |
-|                  | • Increased knockback of Neutral Attack                                                                                                                                  |
+|                  | • Increased knockback and damage of Neutral Attack                                                                                                                       |
 | Ivysaur          |                                                                                                                                                                          |
 |                  | • Pokémon Change now fails when Character Swap Special Moves are disabled                                                                                                |
 |                  | • Ivysaur does not automatically switch to Squirtle when KO’d when Character Swap Special Moves are disabled                                                             |
@@ -1596,7 +1689,7 @@ This section has brief summaries for why each item is being put into SSBU2.
   - Squad Strike Tag-Team: Assists: A fun combo extension mechanic or used in neutral. Assists in Tag-Team 3v3 also help display the full roster, as some characters may have an assist that fits your team better than others. Provides a faster and flashier pace of play.
   - Smash Meter: The meter system in Ultimate was not great. It often resulted in a bunch of Final Smashes being used back-to-back, and the way meter was gained did not feel particularly engaging. So, the meter system has been significantly altered.
     - Power Shield: A defensive mechanic so your shield doesn't pop so often when under pressure from Assists or Smash-Links
-    - Smash-Link: Many traditional Fighting Games have a cancel mechanic that burns meter, like a Guilty Gear Roman Cancel or BlazeBlue Rapid Cancel. This is similar, although more restrictive as only certain "links" are allowed. In turn, however, the unique links per character will help characters feel unique and require more effort to understand the matchup or master a character. Provides a faster and flashier pace of play.
+    - Smash-Link: Many traditional Fighting Games have a cancel mechanic that burns meter, like a Guilty Gear Roman Cancel or BlazeBlue Rapid Cancel. This is similar, although more restrictive as only certain "links" are allowed. In turn, however, the unique links per character will help characters feel unique and require more effort to understand the matchup or master a character. Generally, characters with good frame data and better neutral will have fewer/worse Smash-Link options than those that struggle in neutral. Smash-Links provide a faster and flashier pace of play.
   - Ultimate Final Smash Attack: This is a fun cinematic ender to a match. It will be a rare occurrence but very hype when it happens. Similar to a BlazBlue Astral Heat.
   - Final Smash Attack Power: Meter-obtained Final Smashes were a bit too strong in Ultimate, so they've been toned down.
   - Custom Stage Music Playlist: This is a big quality of life feature so that you can listen to more of this games expansive soundtrack
